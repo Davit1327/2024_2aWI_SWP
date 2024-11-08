@@ -95,7 +95,7 @@ table {
         bottom: 0px;
         height: 100px;
         width: 100px;
-        border-width: 5px;
+        border-width: 1px;
             border-style: solid;
             border-color: black;
 
@@ -107,7 +107,7 @@ table {
             top: 0px;
             height: 50px;
             width: 50px;
-            border-width: 5px;
+            border-width: 1px;
             border-style: solid;
             border-color: black;
         }
