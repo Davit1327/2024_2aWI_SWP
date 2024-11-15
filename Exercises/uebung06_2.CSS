@@ -44,7 +44,7 @@ table {
 
 
         .nocolourbox{
-            position: relative;
+            position:relative;
             display: flex;
             height: 100px;
             justify-content: end;
@@ -72,21 +72,32 @@ table {
 
 
         }
-
+        
+        
         .aquabox{
-           
+            position:relative;
             background-color: aqua;
             height: 400px;
             width: 200px;
             top: 40px;
             left: 40px;
-            position:relative;
             border-width: 1px;
             border-style: solid;
             border-color: black;
             padding-top: 20px;
             padding-left: 20px;
                 }
+        .blackbox {
+                    position: absolute;
+                    background-color:  black;
+                    margin-top: -40px;
+                    margin-left: -40px;
+                    height: 50px;
+                    width: 50px;
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: black;
+         }
 
         .box1{
 
@@ -101,14 +112,4 @@ table {
             border-color: black;
 
         }
-        .blackbox {
-            position: absolute;
-            background-color:  black;
-            margin-top: 20px;
-            margin-left: 20px;
-            height: 50px;
-            width: 50px;
-            border-width: 1px;
-            border-style: solid;
-            border-color: black;
-        }
+        
