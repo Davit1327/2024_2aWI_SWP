@@ -43,9 +43,9 @@ table {
 }
 
 
-        .yellowbox{
+        .nocolourbox{
+            position: relative;
             display: flex;
-            background-color: yellow;
             height: 100px;
             justify-content: end;
             align-items: center;
@@ -57,11 +57,13 @@ table {
             display: flex;
             justify-content: space-evenly; 
             align-items: center;
+            margin-left: 40px;
+            margin-right: 40px;
         }
 
         .box{
-            width: 30px;
-            height: 30px;
+            width: 40px;
+            height: 20px;
             background-color: green;
             margin: 20px;
             border-width: 1px;
@@ -99,7 +101,7 @@ table {
             border-color: black;
 
         }
-        .purplebox {
+        .blackbox {
             position: absolute;
             background-color:  black;
             margin-top: 20px;
