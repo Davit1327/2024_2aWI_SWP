@@ -1,42 +1,53 @@
-.content {
+.header {
     padding: 100px;
+    height: 540px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: minmax(100%, auto);
 
 }
 
 .container1 {
+    padding: 50px;
     height: 540px;
-    width: 100%;
+    width: 86.7%;
     border: 1px;
     border-style: solid;
     border-color: black;
     border-width: 1px;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 150px;
+    row-gap: 10px;
+    /* zwischen den Zellen abstand */
+    column-gap: 50px;
+    /* zwischen den Spalten abstand*/
 }
-
-.grid-left {
-    display: grid;
-
-}
-
-.grid-right {
-    display: grid;
-}
-
-.box {
-
-    width: 100%;
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-
-}
-
 
 .box1 {
     background-color: green;
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
+}
 
+.container2 {
+    padding: 50px;
+    height: 540px;
+    width: 86.8%;
+    display: grid;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    grid-template-columns: 200px 200px;
+    row-gap: 10px;
+    column-gap: 50px;
+
+}
+
+.box2 {
+    background-color: green;
+    height: 200px;
+    width: 200px;
 }
