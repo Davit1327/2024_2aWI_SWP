@@ -1,65 +1,77 @@
+.boxes {
+    margin-left: 50px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
 
-    
-    
-    .boxes{
-        margin-left: 50px;
-        margin-top: 10px;
-        display: flex;
-        flex-direction: row;
+}
 
-    }
-    .aquabox{
-        position: relative;
-        background-color: aqua;
-        height: 300px;
-        width: 200px;
-        border: 1px;
-        border-style: solid;
-        border-color: black;
-        margin-top: 50px;
-        
-    }
-    .greenbox{
-        position: relative;
-        background-color: green;
-        height: 300px;
-        width: 200px;
-        margin-top: 50px;
-        margin-left: 50px;
-        border: 1px;
-        border-style: solid;
-        border-color: black;
-    }
-    .orangebox{
-        background-color: orange;
-        height: 100px;
-        width: 402px;
-        border: 1px;
-        border-style: solid;
-        border-color: black;
-        margin-left: 100px;
-    }
-    .greybox{
-        height: 250px;
-        width: 250px;
-        background-color: grey;
-        left: 0px;
-        bottom: 0px;
-        position: absolute;
-        justify-content: center;
-        align-items: center;
-        display: flex;
+.aquabox {
+    position: relative;
+    background-color: aqua;
+    height: 300px;
+    width: 200px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 50px;
+
+}
+
+.greenbox {
+    position: relative;
+    background-color: green;
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.orangebox {
+    background-color: orange;
+    height: 100px;
+    width: 402px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 100px;
+}
+
+.greybox {
+    height: 250px;
+    width: 250px;
+    background-color: grey;
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 
 
-    }
-    .orangebox2{
-        position: absolute;
-        background-color: orangered;
-        height: 100px;
-        width: 100px;
-        justify-content:space-around;
-        align-items:center;
-    }
-    body{
-        box-sizing: border-box;
-    }
+}
+
+.orangebox2 {
+    position: absolute;
+    background-color: orangered;
+    height: 100px;
+    width: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.blackbox {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+}
