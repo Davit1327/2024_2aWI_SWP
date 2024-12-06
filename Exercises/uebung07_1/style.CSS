@@ -1,10 +1,12 @@
 .container1{
+    background-color: white;
+    height: 100px;
+    width: 100%;
     border: 1px;
-    border-style:solid;
+    border-style: solid;
     border-color: black;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
     
+}
+.container1{
+    padding: 100px;
 }
