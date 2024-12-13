@@ -51,51 +51,42 @@
     border-color: black;
 }
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
     .box {
-        background-color: aqua;
-        position: relative;
-        height: 100px;
         display: grid;
         grid-template-columns: auto;
-        border-width: 1px;
-        border-style: solid;
-        border-color: black;
         justify-content: space-between;
         align-items: flex-start;
+        border-color: azure;
 
     }
 
     .innerbox {
-        background-color: aqua;
-        margin-left: 10px;
-        margin-right: 10px;
+        background-color: deeppink;
+        margin-top: 10px;
+        margin-bottom: 10px;
         height: 50px;
         width: 50px;
-        border-width: 1px;
-        border-style: solid;
-        border-color: black;
+
 
     }
 
     .footer-box {
-        background-color: aqua;
         display: grid;
-        height: 500px;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
 
 
     }
 
     .innerbox-footer {
-        background-color: aqua;
+        background-color: deeppink;
+        margin-top: 50px;
         height: 400px;
         width: 400px;
-        border-width: 1px;
-        border-style: solid;
-        border-color: black;
+
+
     }
 
 }
