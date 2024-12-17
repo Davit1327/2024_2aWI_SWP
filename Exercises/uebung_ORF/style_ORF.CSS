@@ -1,4 +1,6 @@
 .header {
+    display: flex;
+    justify-content: center;
     padding-left: 150px;
     padding-right: 300px;
     color: white;
@@ -8,6 +10,12 @@
     background-color: crimson;
     height: auto;
     word-spacing: 30px;
+}
+
+.box2container {
+    padding-left: 150px;
+    padding-right: 300px;
+
 }
 
 .box2 {
