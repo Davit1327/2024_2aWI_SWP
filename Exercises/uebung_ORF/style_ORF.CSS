@@ -73,3 +73,30 @@ img {
     height: 30px;
     background-color: white
 }
+
+
+.box4 {
+    position: fixed;
+
+}
+
+
+
+.box4b {
+    margin: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: azure;
+}
