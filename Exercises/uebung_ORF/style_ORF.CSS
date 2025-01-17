@@ -1,144 +1,321 @@
-* {
-    font-family: "ORF ON", Arial, Helvetica, Lucida Sans Unicode, Lucida Grande, sans-serif;
-    font-feature-settings: "liga", "kern"
-}
+    * {
+        font-family: "ORF ON", Arial, Helvetica, Lucida Sans Unicode, Lucida Grande, sans-serif;
+        font-feature-settings: "liga", "kern"
+    }
 
-.Everything {
-    margin-left: 200px;
-    margin-right: 200px;
-}
+    .Everything {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
 
-.header {
-    display: flex;
-    align-items: center;
-    color: white;
-    width: 100%;
-    justify-content: space-between;
-    background-color: crimson;
-    height: 30px;
+    .header {
+        display: flex;
+        align-items: center;
+        color: white;
+        width: 100%;
+        justify-content: space-between;
+        background-color: crimson;
+        height: 30px;
 
-}
+    }
 
-.box1 {
+    .box1 {
 
-    height: auto;
+        height: auto;
 
-}
+    }
 
-.box2container {
-    width: 100%;
-}
+    .box2container {
+        width: 100%;
+    }
 
-.box2 {
-    display: flex;
-    gap: 0px;
-    background-color: rgb(187, 19, 26);
-    height: 100px;
-    font-size: 24px;
-    align-items: center;
-    color: white;
-    padding-left: 30px;
-    padding-right: 30px;
-}
+    .box2 {
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        background-color: rgb(187, 19, 26);
+        height: 100px;
+        font-size: 24px;
+        align-items: center;
+        color: white;
+        padding-left: 30px;
+        padding-right: 30px;
+        justify-content: left;
+        position: relative;
+        /*wichtig für das Burger-menü*/
+    }
 
-img {
-    position: relative;
-    height: 100px;
-}
-
-
-.box3container {
-    display: flex;
-    align-items: center;
-    color: white;
-    width: 100%;
-    justify-content: space-between;
-    height: 30px;
-    background-color: rgb(117, 31, 34);
-}
-
-.box3 {
-    display: flex;
-    gap: 0px;
-    height: 100px;
-    font-size: 24px;
-    align-items: center;
-    color: white;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.box4container {
-    display: flex;
-    align-items: center;
-    color: black;
-    width: 100%;
-    justify-content: space-between;
-    height: 30px;
-    background-color: white;
-    margin-top: 15px;
-}
+    img {
+        position: relative;
+        height: 100px;
+    }
 
 
-.box4 {
-    margin-left: -400px;
-}
+    .box3container {
+        display: flex;
+        align-items: center;
+        color: white;
+        width: 100%;
+        justify-content: space-between;
+        height: 30px;
+        background-color: rgb(117, 31, 34);
+    }
+
+    .box3 {
+        display: flex;
+        gap: 0px;
+        height: 100px;
+        font-size: 20px;
+        align-items: center;
+        color: white;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .box4container {
+        display: flex;
+        align-items: center;
+        color: black;
+        width: 100%;
+        justify-content: space-between;
+        height: 30px;
+        background-color: white;
+        margin-top: 15px;
+    }
 
 
-
-.box4b {
-    margin-right: 300px;
-    margin-left: -400px;
-}
-
-
-.box4container img {
-    width: 28px;
-    height: 28px;
-}
+    .box4 {
+        margin-left: -400px;
+    }
 
 
 
-body {
-    background-color: azure;
-}
+    .box4b {
+        margin-right: 300px;
+        margin-left: -400px;
+    }
 
 
-.EndBox {
-    background-color: white;
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: auto auto;
-    height: auto;
-
-}
+    .box4container img {
+        width: 28px;
+        height: 28px;
+    }
 
 
 
-img {
-    height: auto;
-    width: 100%;
-}
+    body {
+        background-color: darkgrey;
+    }
 
-.headerText {
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 40px;
-}
+    .footer {
+        background-color: white;
+        margin-bottom: 20px;
+    }
 
+    .EndBox {
+        background-color: white;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: auto auto;
+        height: auto;
 
-h1 {
-    font-size: 50px;
-}
-
-.footerText {
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
+    }
 
 
-h2 {
-    font-size: 50px;
-}
+
+    img {
+        height: auto;
+        width: 100%;
+    }
+
+    .headerText {
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 40px;
+        font-size: 15px;
+    }
+
+
+    h1 {
+        font-size: 50px;
+        color: cornflowerblue;
+    }
+
+    .footerText {
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+
+    h2 {
+        font-size: 50px;
+        color: cornflowerblue;
+    }
+
+    .burger-menü {
+        display: none;
+        font-size: 24px;
+        color: white;
+        position: absolute;
+        right: 10px;
+
+    }
+
+
+
+    @media (max-width: 700px) {
+
+        .Everything {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .header {
+            display: none;
+
+
+        }
+
+
+
+        .box2container {
+            width: 100%;
+        }
+
+        .box2 {
+            display: flex;
+            flex-direction: row;
+            gap: 0px;
+            background-color: rgb(187, 19, 26);
+            height: auto;
+            font-size: 22px;
+            align-items: center;
+            color: white;
+            padding: 10px;
+            justify-content: space-between;
+        }
+
+        .burger-menü {
+            cursor: pointer;
+            /* Zeigt an, dass das Element klickbar ist */
+            font-size: 24px;
+            color: white;
+            position: absolute;
+            right: 10px;
+            display: block;
+            /* burger-menü bei kleineren Bildschirmen sichtbar */
+            /* Herausgefunden durch langes ausprobieren*/
+        }
+
+
+        img {
+            position: relative;
+            height: 100px;
+        }
+
+
+        .box3container {
+            display: flex;
+            align-items: center;
+            color: white;
+            width: 100%;
+            justify-content: space-between;
+            height: 30px;
+            background-color: rgb(117, 31, 34);
+        }
+
+        .box3 {
+            display: none;
+
+        }
+
+        .ORF_Clock {
+            display: none;
+        }
+
+        .box4container {
+            display: flex;
+            align-items: center;
+            color: black;
+            width: 100%;
+            justify-content: space-between;
+            height: 30px;
+            background-color: white;
+            margin-top: 15px;
+        }
+
+
+        .box4 {
+            margin: 0;
+        }
+
+
+
+        .box4b {
+            margin: 0;
+        }
+
+
+        .box4container img {
+            width: 28px;
+            height: 28px;
+        }
+
+
+
+        body {
+            background-color: darkgrey;
+        }
+
+        .footer {
+            background-color: white;
+            margin-bottom: 20px;
+        }
+
+        .EndBox {
+            background-color: white;
+            display: grid;
+            grid-template-columns: auto;
+            height: auto;
+
+        }
+
+
+
+        img {
+            height: auto;
+            width: 100%;
+        }
+
+        .headerText {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+
+        h1 {
+            font-size: 30px;
+            color: cornflowerblue;
+        }
+
+        .footerText {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            padding-bottom: 10px;
+        }
+
+
+        h2 {
+            font-size: 30px;
+            color: cornflowerblue;
+        }
+    }
