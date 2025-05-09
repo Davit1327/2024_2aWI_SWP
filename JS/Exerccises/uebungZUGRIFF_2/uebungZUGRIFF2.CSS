@@ -1,0 +1,56 @@
+.Head {
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+    height: 500px;
+}
+
+h1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-right: 330px;
+
+}
+
+.middle {}
+
+.inputA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+
+
+
+.footerfooter {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

@@ -7,18 +7,29 @@
     <title>Document</title>
 
     <script src="uebungZUGRIFF2.js" defer></script>
-    <script src="uebungZUGRIFF2.CSS" defer></script>
+    <link rel="stylesheet" href="uebungZUGRIFF2.CSS">
 </head>
 
 <body>
-    A: <input type="number" id="inputA" value=20>
-    B: <input type="number" id="inputB" value=30>
-    <button id="addieren" onclick="calculateSum()">addieren</button>
-    <button id="Subtrahieren" onclick="calculateSub()">Subtrahieren</button>
-    <button id="Multiplizieren" onclick="calculateMul()">Multiplizieren</button>
-    <button id="Dividieren" onclick="calculateDiv()">Dividieren</button>
-    <div>
-        Result: <span id="result">result</span>
+    <div class="Head">
+        <h1>Mini Rechner</h1>
+        <div class="all">
+            <div class="middle">
+                <div class="inputs">
+                    <input type="number" id="inputA" value=20>
+                    <input type="number" id="inputB" value=30>
+                </div>
+                <div class="footer">
+                    <button id="addieren" onclick="calculateSum()">+</button>
+                    <button id="Subtrahieren" onclick="calculateSub()">-</button>
+                    <button id="Multiplizieren" onclick="calculateMul()">*</button>
+                    <button id="Dividieren" onclick="calculateDiv()">/</button>
+                </div>
+            </div>
+            <div class="footerfooter">
+                Result: <div id="result"></div>
+            </div>
+        </div>
     </div>
 </body>
 
