@@ -18,7 +18,7 @@ function displayScores() {
 
     scores.forEach(
         function (element) {
-            html += "<div" > + element.name + ": " + element.points + "</div>"
+            html += "<div class = 'score'>" + element.name + ": " + element.points + "</div>"
         }
     );
 
