@@ -1,20 +1,21 @@
-let binary = [0, 0, 0, 1, 1, 1, 0, 0, 0];
+let binary = "10101100cd";
 let result = inverted(binary);
 
 console.log(result)
 
-function inverted() {
-    let inverted = ""
+function inverted(Binar) {
+    let inverted = "";
 
 
-    for (let i = 0; i <= binary.length; i++) {
-        if (binary[i] === '0') {
+    for (let i = 0; i <= Binar.length; i++) {
+        if (Binar[i] == '0') {
             inverted += '1';
-        } else if (binary[i] === '1') {
+        }
+        else if (Binar[i] == '1') {
             inverted += '0';
         }
 
-        console.log(inverted);
-    }
 
+    }
+    return inverted;
 }
