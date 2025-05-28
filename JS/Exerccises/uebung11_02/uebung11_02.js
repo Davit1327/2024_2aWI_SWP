@@ -1,4 +1,4 @@
-let binary = "10101100cd";
+let binary = "10101100";
 let result = inverted(binary);
 
 console.log(result)
